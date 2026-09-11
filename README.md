@@ -11,9 +11,11 @@
 <a href="https://github.com/KBYSHanahira?tab=repositories"><img src="https://img.shields.io/badge/Repositories-8C5162?style=for-the-badge&logo=github&logoColor=FFF5F7" alt="Repositories" /></a>
 <img src="https://komarev.com/ghpvc/?username=KBYSHanahira&style=for-the-badge&color=E4739B&label=VISITORS" alt="Profile views" />
 
-<br /><br />
+<br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3400&pause=900&color=E4739B&center=true&vCenter=true&width=600&lines=Super+Junior+Programmer+%3A%29;Bun+%C2%B7+Go+%C2%B7+TypeScript+%C2%B7+and+plenty+more;Self-hosted+everything%2C+Docker+all+the+way+down;ComfyUI+tooling+by+night%2C+Arduino+on+weekends" alt="What I do" />
+**`Super Junior Programmer :)`**
+
+*Bun · Go · TypeScript · C++ · Arduino — self-hosted everything, Docker all the way down*
 
 🌸 ✦ 🌸 ✦ 🌸
 
