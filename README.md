@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:FFC2D1,50:FBD3DF,100:F7E7EC&text=Hanahira&fontColor=6B2C3E&fontSize=64&fontAlignY=36&desc=%E8%8A%B1%20%C2%B7%20HanahiraNetwork%20%C2%B7%20small%2C%20fast%2C%20self-hosted&descAlignY=57&descSize=15" alt="Hanahira" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:FFC2D1,50:F7A8BC,100:E4739B" alt="" />
+
+# 🌸 Hanahira
+
+**HanahiraNetwork** · 花 · small, fast, self-hosted
 
 <a href="https://hanahira.dev/"><img src="https://img.shields.io/badge/hanahira.dev-E4739B?style=for-the-badge&logo=hey&logoColor=FFF5F7" alt="Website" /></a>
 <a href="https://x.com/HanahiraDev"><img src="https://img.shields.io/badge/@HanahiraDev-B5838D?style=for-the-badge&logo=x&logoColor=FFF5F7" alt="X" /></a>
