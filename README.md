@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:8EC5FC,100:E0C3FC&text=Hanahira&fontColor=2b2b3c&fontSize=64&fontAlignY=36&desc=HanahiraNetwork%20%C2%B7%20building%20small%2C%20fast%2C%20self-hosted%20things&descAlignY=58&descSize=16&animation=fadeIn" alt="Hanahira" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:8EC5FC,100:E0C3FC&text=Hanahira&fontColor=ffffff&fontSize=62&fontAlignY=38&desc=HanahiraNetwork%20%C2%B7%20building%20small%2C%20fast%2C%20self-hosted%20things&descAlignY=58&descSize=16" alt="Hanahira" />
 
 <a href="https://hanahira.dev/"><img src="https://img.shields.io/badge/hanahira.dev-1a1a2e?style=for-the-badge&logo=hey&logoColor=E0C3FC" alt="Website" /></a>
 <a href="https://x.com/HanahiraDev"><img src="https://img.shields.io/badge/@HanahiraDev-1a1a2e?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
@@ -98,24 +98,34 @@ const hanahira = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KBYSHanahira&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&title_color=8EC5FC&icon_color=E0C3FC" />
-  <img src="https://github-readme-stats.vercel.app/api?username=KBYSHanahira&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=4a6fd4&icon_color=8a63d2" height="165" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KBYSHanahira&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KBYSHanahira&theme=default" width="98%" alt="Profile details" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KBYSHanahira&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KBYSHanahira&theme=default" height="200" alt="Repos per language" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KBYSHanahira&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&title_color=8EC5FC" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KBYSHanahira&layout=compact&hide_border=true&langs_count=8&title_color=4a6fd4" height="165" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KBYSHanahira&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KBYSHanahira&theme=default" height="200" alt="Most commit language" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KBYSHanahira&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KBYSHanahira&theme=default" height="200" alt="Stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KBYSHanahira&utcOffset=7&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KBYSHanahira&utcOffset=7&theme=default" height="200" alt="Productive time (UTC+7)" />
 </picture>
 
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=KBYSHanahira&hide_border=true&theme=tokyonight&ring=8EC5FC&fire=E0C3FC&currStreakLabel=8EC5FC" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KBYSHanahira&hide_border=true&ring=4a6fd4&fire=8a63d2" alt="Streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=KBYSHanahira&hide_border=true&theme=tokyonight&ring=8EC5FC&fire=E0C3FC&currStreakLabel=8EC5FC" />
+  <img src="https://streak-stats.demolab.com/?user=KBYSHanahira&hide_border=true&ring=4a6fd4&fire=8a63d2" alt="Contribution streak" />
 </picture>
-
-<br /><br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=KBYSHanahira&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
 
 </div>
 
