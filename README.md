@@ -9,7 +9,7 @@
 <a href="https://hanahira.dev/"><img src="https://img.shields.io/badge/hanahira.dev-E4739B?style=for-the-badge&logo=hey&logoColor=FFF5F7" alt="Website" /></a>
 <a href="https://x.com/HanahiraDev"><img src="https://img.shields.io/badge/@HanahiraDev-B5838D?style=for-the-badge&logo=x&logoColor=FFF5F7" alt="X" /></a>
 <a href="https://github.com/KBYSHanahira?tab=repositories"><img src="https://img.shields.io/badge/Repositories-8C5162?style=for-the-badge&logo=github&logoColor=FFF5F7" alt="Repositories" /></a>
-<img src="https://komarev.com/ghpvc/?username=KBYSHanahira&style=for-the-badge&color=E4739B&label=VISITORS" alt="Profile views" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=KBYSHanahira.KBYSHanahira&left_text=VISITORS&left_color=%238C5162&right_color=%23E4739B" alt="Profile views" />
 
 <br />
 
