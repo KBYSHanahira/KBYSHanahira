@@ -1,0 +1,81 @@
+{
+ "login": "KBYSHanahira",
+ "name": "Hanahira",
+ "since": "2021",
+ "avatar": null,
+ "followers": 5,
+ "prs": 5,
+ "issues": 5,
+ "contrib_year": 73,
+ "commits_year": 54,
+ "stars": 14,
+ "public_repos": 8,
+ "total_commits": 54,
+ "hours": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  3,
+  0,
+  2,
+  0,
+  0,
+  1,
+  8,
+  3,
+  5,
+  8,
+  4,
+  2,
+  2,
+  0,
+  2,
+  4,
+  0,
+  6
+ ],
+ "langs": [
+  [
+   "TypeScript",
+   32
+  ],
+  [
+   "Batchfile",
+   18
+  ],
+  [
+   "C++",
+   4
+  ]
+ ],
+ "repos": {
+  "ClaudeHanahiraUI": {
+   "stars": 0,
+   "forks": 0,
+   "lang": "TypeScript"
+  },
+  "HanahiraVRCTools": {
+   "stars": 0,
+   "forks": 0,
+   "lang": "Batchfile"
+  },
+  "kikitan-translator": {
+   "stars": 0,
+   "forks": 0,
+   "lang": "C#"
+  },
+  "Civicomfy": {
+   "stars": 13,
+   "forks": 0,
+   "lang": "JavaScript"
+  },
+  "sd-civitai-browser-plus": {
+   "stars": 1,
+   "forks": 0,
+   "lang": "Python"
+  }
+ }
+}

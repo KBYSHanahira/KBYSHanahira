@@ -1,0 +1,85 @@
+{
+  "user": "KBYSHanahira",
+  "display_name": "Hanahira",
+  "display_name_jp": "花平",
+  "utc_offset": 7,
+
+  "sections": {
+    "about":    { "num": "01", "jp": "私について",   "en": "About me",          "sub": "small, fast services on my own hardware", "mark": "私" },
+    "network":  { "num": "02", "jp": "ネットワーク", "en": "HanahiraNetwork",   "sub": "self-hosted · built from scratch · live",  "mark": "網" },
+    "projects": { "num": "03", "jp": "作品",         "en": "Open source",       "sub": "Claude Code mods, VRChat tools, ComfyUI",   "mark": "作" },
+    "stack":    { "num": "04", "jp": "技術スタック", "en": "Tech stack",        "sub": "what the network runs on",                 "mark": "技" },
+    "numbers":  { "num": "05", "jp": "統計",         "en": "GitHub in numbers", "sub": "rebuilt every day from the GitHub API",    "mark": "統" },
+    "graph":    { "num": "06", "jp": "貢献グラフ",   "en": "Contribution graph","sub": "the petals fall as the snake passes",      "mark": "貢" }
+  },
+
+  "about_code": {
+    "file": "hanahira.ts",
+    "lines": [
+      "const hanahira = {",
+      "  handle:     \"KBYSHanahira\",",
+      "  network:    \"https://hanahira.dev\",",
+      "  builds:     [\"DNS\", \"VPN\", \"cloud storage\", \"status pages\", \"a reverse proxy / WAF\"],",
+      "  stack:      [\"Bun\", \"Hono\", \"Go\", \"TypeScript\", \"Preact\", \"MySQL\", \"PostgreSQL\", \"Docker\"],",
+      "  sideQuests: [\"Claude Code mods\", \"VRChat tools\", \"ComfyUI\", \"Arduino\"],",
+      "  motto:      \"Ship it small, ship it self-hosted.\",",
+      "} as const;"
+    ]
+  },
+
+  "services": [
+    { "id": "dns",      "name": "DNS",          "url": "https://dns.hanahira.dev/",    "host": "dns.hanahira.dev",    "icon": "compass", "mark": "名", "tag": "live",
+      "desc": "Recursive / forwarding resolver over UDP, TCP, DoT and DoH — filtering, rewrites, monitoring, leader + hot-standby HA",
+      "tech": ["Bun", "React", "PostgreSQL"] },
+    { "id": "vpn",      "name": "VPN",          "url": "https://vpn.hanahira.dev/",    "host": "vpn.hanahira.dev",    "icon": "lock",    "mark": "鍵", "tag": "live",
+      "desc": "WireGuard access management — approval sign-up, self-service devices with QR codes, traffic history, TOTP 2FA, 25 languages",
+      "tech": ["Bun", "Hono", "Vite"] },
+    { "id": "cloud",    "name": "Cloud",        "url": "https://cloud.hanahira.dev/",  "host": "cloud.hanahira.dev",  "icon": "cloud",   "mark": "雲", "tag": "live",
+      "desc": "Private cloud storage — nested folders, password / expiring share links, video & audio streaming, quotas, audit log",
+      "tech": ["Bun", "Hono", "Preact", "MySQL"] },
+    { "id": "status",   "name": "Status",       "url": "https://status.hanahira.dev/", "host": "status.hanahira.dev", "icon": "pulse",   "mark": "状", "tag": "live",
+      "desc": "Public status page and ops panel for servers, Docker and databases in one",
+      "tech": ["Bun", "Hono", "Preact"] },
+    { "id": "security", "name": "Web Security", "url": "https://hanahira.dev/",        "host": "the gateway",         "icon": "shield",  "mark": "盾", "tag": "gateway",
+      "desc": "The gateway in front of it all — single Go binary: routing, TLS/ACME, HTTP/3, WAF, rate limits, OIDC login",
+      "tech": ["Go"] },
+    { "id": "tools",    "name": "Tools",        "url": "https://hanahira.dev/",        "host": "hanahira.dev",        "icon": "tools",   "mark": "具", "tag": "live",
+      "desc": "Speed test · JLPT practice · QR generator · Portfolio",
+      "tech": ["Hono", "Vite"] }
+  ],
+
+  "tools_links": [
+    ["Speed test", "https://speed.hanahira.dev/"],
+    ["JLPT practice", "https://hanahira.dev/JLPT"],
+    ["QR generator", "https://hanahira.dev/qr"],
+    ["Portfolio", "https://hanahira.dev/portfolio/"]
+  ],
+
+  "projects": [
+    { "repo": "ClaudeHanahiraUI",        "icon": "gauge",    "mark": "界", "lang": "TypeScript",
+      "desc": "Interface mod for Claude Code — a status band above the prompt with ring gauges for context and 5h / 7d limits, cost / token / time cards, live agent cards and styled conversation logs" },
+    { "repo": "HanahiraVRCTools",        "icon": "bandage",  "mark": "癒", "lang": "Batch",
+      "desc": "One-click Windows repair kit for VRChat — crashes, EAC, cache, IME, Discord hook, network and audio. One .bat, nothing to install" },
+    { "repo": "kikitan-translator",      "icon": "speech",   "mark": "訳", "lang": "C#",
+      "desc": "Real-time speech translation for VRChat — voice to chatbox over OSC, desktop-audio subtitles and a VR overlay",
+      "fork_of": "YusufOzmen01/kikitan-translator" },
+    { "repo": "Civicomfy",               "icon": "download", "mark": "取", "lang": "JavaScript",
+      "desc": "Civitai model downloader for ComfyUI",
+      "fork_of": "MoonGoblinDev/Civicomfy" },
+    { "repo": "sd-civitai-browser-plus", "icon": "search",   "mark": "探", "lang": "Python",
+      "desc": "Browse, download and update Civitai models from inside the Stable Diffusion WebUI",
+      "fork_of": "BlafKing/sd-civitai-browser-plus" }
+  ],
+
+  "older": [
+    ["Data-Structure", "C++"],
+    ["Arduino", "C++"]
+  ],
+
+  "stack": [
+    { "jp": "言語",   "en": "Languages",    "tier": 0, "items": ["TypeScript", "Go", "JavaScript", "C#", "C++", "Python", "SQL"] },
+    { "jp": "実行",   "en": "Runtime & web", "tier": 1, "items": ["Bun", "Hono", "Vite", "Preact", "React", "Node.js"] },
+    { "jp": "基盤",   "en": "Infra & data", "tier": 2, "items": ["Docker", "Linux", "MySQL", "PostgreSQL", "WireGuard", "Nginx", "Git"] },
+    { "jp": "寄り道", "en": "Side quests",  "tier": 3, "items": ["Claude Code", "VRChat", "ComfyUI", "Arduino"] }
+  ]
+}

@@ -1,0 +1,54 @@
+name: Build sakura cards
+
+# Redraws every card in assets/sakura/ (section headers, services, projects,
+# tech stack and the live GitHub numbers) from scripts/sakura/content.json.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/sakura/**"
+      - "!scripts/sakura/data/**"
+      - ".github/workflows/sakura-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sakura-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/sakura/requirements.txt
+
+      - run: pip install -r scripts/sakura/requirements.txt
+
+      - name: Build cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/sakura/build.py
+
+      - name: Commit if anything changed
+        run: |
+          git add assets/sakura scripts/sakura/data
+          if git diff --cached --quiet; then
+            echo "cards unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "🌸 refresh sakura cards"
+          git push
