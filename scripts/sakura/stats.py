@@ -189,7 +189,7 @@ def languages_card(p: Palette, s: dict) -> str:
         body.append(text(pct, lx + 250, ly, Style("mono", 400, 16), p.muted, anchor="end"))
     if not langs:
         body.append(text("no commits found yet", 28, 160, Style("sans", 400, 15), p.muted))
-    body.append(blossom(w - 46, h - 42, 1.05, 14, p.petal_a, p.center, sway=True))
+    body.append(blossom(w - 50, 52, 1.05, 14, p.petal_a, p.center, sway=True))
     body.append(close)
     label = "Most-committed languages: " + ", ".join(f"{l} {100 * n / total:.0f}%" for l, n in langs)
     return svg_doc(w, h, label, "\n".join(body), defs)
