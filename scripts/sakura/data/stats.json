@@ -6,11 +6,11 @@
  "followers": 5,
  "prs": 5,
  "issues": 5,
- "contrib_year": 79,
- "commits_year": 67,
+ "contrib_year": 93,
+ "commits_year": 81,
  "stars": 14,
  "public_repos": 8,
- "total_commits": 148,
+ "total_commits": 162,
  "hours": [
   4,
   2,
@@ -21,9 +21,9 @@
   5,
   3,
   2,
-  2,
-  12,
-  7,
+  5,
+  16,
+  11,
   17,
   14,
   23,
@@ -34,17 +34,17 @@
   1,
   5,
   10,
-  0,
+  3,
   11
  ],
  "langs": [
   [
-   "JavaScript",
-   55
+   "TypeScript",
+   57
   ],
   [
-   "TypeScript",
-   43
+   "JavaScript",
+   55
   ],
   [
    "Python",
