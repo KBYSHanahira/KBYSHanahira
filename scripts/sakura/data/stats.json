@@ -8,7 +8,7 @@
  "issues": 5,
  "contrib_year": 98,
  "commits_year": 86,
- "stars": 14,
+ "stars": 15,
  "public_repos": 8,
  "total_commits": 167,
  "hours": [
@@ -86,7 +86,7 @@
    "parent": "BlafKing/sd-civitai-browser-plus"
   },
   "Civicomfy": {
-   "stars": 13,
+   "stars": 14,
    "forks": 0,
    "lang": "JavaScript",
    "desc": "Civitai model downloader for ComfyUI",
