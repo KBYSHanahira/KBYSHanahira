@@ -6,13 +6,13 @@
  "followers": 5,
  "prs": 5,
  "issues": 5,
- "contrib_year": 110,
- "commits_year": 98,
+ "contrib_year": 111,
+ "commits_year": 99,
  "stars": 15,
  "public_repos": 8,
- "total_commits": 179,
+ "total_commits": 181,
  "hours": [
-  8,
+  10,
   2,
   2,
   0,
@@ -40,7 +40,7 @@
  "langs": [
   [
    "TypeScript",
-   74
+   75
   ],
   [
    "JavaScript",
@@ -51,11 +51,11 @@
    21
   ],
   [
-   "Batchfile",
-   13
+   "C#",
+   14
   ],
   [
-   "C#",
+   "Batchfile",
    13
   ],
   [
