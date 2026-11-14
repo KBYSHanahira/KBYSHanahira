@@ -173,7 +173,7 @@ def scanline(p: Palette, w: float, h: float, dur: float = 7) -> str:
 
 def frame(p: Palette, w: float, h: float, c: float = 18, glow_at: tuple[float, float] = (0.85, 0.3),
           watermark: str | None = None, wm_size: float | None = None, wm_x: float | None = None,
-          wm_y: float | None = None, scan: bool = True, code: str | None = None) -> tuple[str, str, str]:
+          wm_y: float | None = None, scan: bool = False, code: str | None = None) -> tuple[str, str, str]:
     """Card background. Returns (defs, open+background, close)."""
     shape = chamfer(0, 0, w, h, c)
     defs = (
@@ -197,8 +197,6 @@ def frame(p: Palette, w: float, h: float, c: float = 18, glow_at: tuple[float, f
         x = wm_x if wm_x is not None else w - 24
         y = wm_y if wm_y is not None else h * 0.5 + size * 0.36
         body.append(" " + text(watermark, x, y, Style("jp", 900, size), p.water, anchor="end", opacity=0.06))
-    if scan:
-        body.append(" " + scanline(p, w, h))
     close = ['</g>',
              f'<path d="{chamfer(.75, .75, w - 1.5, h - 1.5, c - .3)}" fill="none" stroke="{p.border}" '
              f'stroke-opacity="{p.border_op}" stroke-width="1.5"/>',

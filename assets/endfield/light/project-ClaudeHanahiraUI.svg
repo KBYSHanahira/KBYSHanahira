@@ -27,7 +27,6 @@
  <rect width="590" height="268" fill="url(#grid)"/>
  <rect width="590" height="268" fill="url(#glow)"/>
  <path d="M479.1 142.3H496.9V148.7H479.1ZM515.2 142.3H533.2V148.7H515.2ZM479.1 122.7H496.9V129H479.1ZM515.2 122.7H533.2V129H515.2ZM516 177.1V221.3H534.9V183.8C540.6 187.4 546.8 190.4 553.5 192.6C556.1 187.9 561.6 180.9 565.5 177.3C553.6 174.4 542.7 169.5 534.4 163.1H552V108.3H461.1V163.1H477.7C469.5 169.6 458.6 175 447.2 178.3C451.1 181.9 456.5 188.7 459.1 193C466.2 190.4 473 187.1 479.2 182.8V185.1C479.2 192.4 476.5 202.1 456.4 207.9C460.4 211.4 466.3 218.3 468.7 222.6C494 214 497.8 197.7 497.8 185.8V176.8H487.4C492.4 172.7 496.7 168.1 500.5 163.1H512.6C516.3 168.2 520.8 172.9 525.7 177.1Z" fill="#111111" opacity="0.06"/>
- <g class="scan" style="--w:670px;--d:7s"><rect x="0" y="0" width="80" height="268" fill="url(#scg)"/><rect x="79" y="0" width="1.5" height="268" fill="#E8620A" opacity=".55"/></g>
 <path d="M40.0 26.0H88.0V74.0L74.0 88.0H26.0V40.0Z" fill="#E8620A"/>
 <g transform="translate(39.0 39.0) scale(1.5000)" fill="none" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5a8 8 0 1 1 15 0"/><path d="m12 13.5 3.5-4"/><circle cx="12" cy="14" r="1.4"/></g>
 <path d="M20 28V20H28M86 20H94V28M94 86V94H86M28 94H20V86" fill="none" stroke="#0E0E0E" stroke-width="1.2" opacity="0.4"/>

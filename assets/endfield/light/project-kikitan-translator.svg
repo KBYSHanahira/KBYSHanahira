@@ -27,7 +27,6 @@
  <rect width="590" height="268" fill="url(#grid)"/>
  <rect width="590" height="268" fill="url(#glow)"/>
  <path d="M453.1 142.3V155.7H491.1V142.3ZM453.4 107.6V121H490.9V107.6ZM453.1 159.4V172.8H491.1V159.4ZM447.1 124.6V138.6H495.2V124.6ZM452.7 176.9V219.9H467.7V215.5H491.4V213.3C494.8 216.1 498.6 219.7 500.4 222C514.2 207.6 518.2 184.2 519 164.9H527.1C530.4 189.5 536.4 206.8 554.5 221.9C556.7 216.3 562 210 566.6 206.2C552.9 195.7 547.8 183.6 544.8 164.9H560.8V108.9H501.7V154.9C501.7 170.4 500.8 189.4 491.4 203.9V176.9ZM519.3 125.9H542.7V148H519.3ZM467.7 190.9H476.1V201.4H467.7Z" fill="#111111" opacity="0.06"/>
- <g class="scan" style="--w:670px;--d:7s"><rect x="0" y="0" width="80" height="268" fill="url(#scg)"/><rect x="79" y="0" width="1.5" height="268" fill="#E8620A" opacity=".55"/></g>
 <path d="M40.0 26.0H88.0V74.0L74.0 88.0H26.0V40.0Z" fill="#E8620A"/>
 <g transform="translate(39.0 39.0) scale(1.5000)" fill="none" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H11l-4.5 4v-4A2.5 2.5 0 0 1 4 13.5Z"/><path d="M8.5 8.5h7M8.5 11.5h4.5"/></g>
 <path d="M20 28V20H28M86 20H94V28M94 86V94H86M28 94H20V86" fill="none" stroke="#0E0E0E" stroke-width="1.2" opacity="0.4"/>
