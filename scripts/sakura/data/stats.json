@@ -6,11 +6,11 @@
  "followers": 5,
  "prs": 5,
  "issues": 5,
- "contrib_year": 123,
- "commits_year": 111,
+ "contrib_year": 124,
+ "commits_year": 112,
  "stars": 15,
  "public_repos": 8,
- "total_commits": 193,
+ "total_commits": 194,
  "hours": [
   11,
   5,
@@ -35,7 +35,7 @@
   7,
   14,
   3,
-  13
+  14
  ],
  "langs": [
   [
@@ -51,12 +51,12 @@
    21
   ],
   [
-   "C#",
+   "Batchfile",
    14
   ],
   [
-   "Batchfile",
-   13
+   "C#",
+   14
   ],
   [
    "C++",
