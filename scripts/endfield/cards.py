@@ -120,7 +120,6 @@ def about_card(p: Palette, code: dict) -> str:
     body.append(eyebrow("私について · about me", w - 30, 34, p, size=13, anchor="end", color=p.muted))
 
     colors = {"str": p.accent, "kw": p.accent2, "key": p.title, "word": p.text, "p": p.muted}
-    body.append(f'<rect x="66" y="{top - 4}" width="1" height="{lh * len(lines)}" fill="{p.accent}" opacity=".35"/>')
     for n, line in enumerate(lines):
         y = top + 20 + n * lh
         body.append(text(f"{n + 1:02d}", 52, y, Style("mono", 400, 14), p.muted, anchor="end", opacity=0.7))
